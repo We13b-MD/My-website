@@ -1,0 +1,383 @@
+* {
+box-sizing: border-box;
+
+}
+
+body{
+margin:0;
+background-color: #d9e3db;
+}
+
+.nav{
+
+color:#333536;
+display:flex;
+align-items: stretch;
+gap:2rem;
+justify-content: space-between;
+padding:0 1rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+
+}
+
+.nav ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    display:flex;
+    gap: 1rem;
+    
+}
+    
+    .siteTitle{
+    font-size:2rem;
+    
+    }
+    .container{
+    
+        margin:1rem;
+        text-align:center;
+    }
+    
+    .nav li.active{
+    background-color:#555;
+    
+    }
+    .nav a{
+        color:#00b627;
+        text-decoration: none;
+        height:100%;
+        display:flex;
+        align-items:center;
+        padding:0.25rem;
+        }
+    
+    
+    .nav li :hover{
+    background-color:#777;
+    
+    }
+    .reactImage{
+      width: 50px;
+      height:50px;
+      margin-top:-20px;
+    }
+
+    .BasicsReact{
+   display:flex;
+   gap:2rem;
+    margin-top: 30px;
+    color:#00b627
+    }
+    .HomeTitle{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;   
+        margin-top:40px;
+    }
+.Reactimage4{
+width:900px;
+height:600px;
+margin-top:10px;
+}
+
+.left{
+    position:relative;
+    overflow:hidden;
+width: 320px;
+height:380px;
+border:2px solid #333536;
+font-family: 'Montserrat', sans-serif;
+margin-top: -20px;
+margin-left: 40px;
+border-radius:15px;
+background-color: white;
+
+}
+h3{
+font-size:30px;
+color:#333536
+}
+
+.HomeParagraph{
+font-size:15px;
+word-spacing: 5px;
+color:#333536;
+position:relative;
+margin-top: -120px;
+visibility: hidden;
+
+}
+
+.HomeParagraph2{
+    font-size:12px;
+    word-spacing: 5px;
+    color:#333536;
+    position:relative;
+    margin-top: -110px;
+    visibility: hidden;
+
+
+}
+
+
+.HomeParagraph3{
+    font-size:12px;
+    word-spacing: 5px;
+    color:#333536;
+    position:relative;
+    margin-top: -110px;
+    visibility: hidden;
+
+
+}
+.HomeContainer{
+
+background-color:#d9e3db;
+
+}
+
+.active{
+visibility:visible;
+
+}
+
+.ReactImage6{
+   height:290px; 
+width:312px;
+object-fit: cover;
+transition: .5s ease;
+background-color: #333536;
+cursor:pointer;
+margin-top: -10px;
+}
+
+.ReactImage7{
+
+    height:290px; 
+    width:315px;
+    object-fit: cover;
+    transition: .5s ease;
+    background-color: #333536;
+    cursor:pointer;
+    margin-top: -10px;
+}
+
+.ReactImage8{
+
+    height:290px; 
+    width:315px;
+    object-fit: cover;
+    transition: .5s ease;
+    background-color: #333536;
+    cursor:pointer;
+    margin-top: -10px;
+}
+
+
+.ReactImage6:hover {
+    transform: translateY(-40%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+
+   .ReactImage7:hover{
+
+    transform: translateY(-40%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+
+   .ReactImage8:hover{
+
+    transform: translateY(-40%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+
+   .Card{
+     
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .iconsAnimate:hover {
+        animation: swing; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+        color:#00b627
+      }
+
+      .dynamic-blog {
+        
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      .blog {
+        border: 1px solid #00b627;
+        padding: 20px;
+        margin: 50px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .blog h2 {
+        margin-top: 0;
+        font-size: 1.5rem;
+         text-align:left;
+      }
+      
+      .blog p {
+        font-size: 1rem;
+        line-height: 1.4;
+      }
+
+      h1{
+text-align:left;
+
+      }
+      .ReadMoreLink{
+       color:#333536;
+       cursor:pointer;
+       text-decoration:none
+      }
+
+      .ReadMoreLink:hover{
+       color:#00b627;
+       text-decoration:underline;
+      }
+      .timeStamp{
+        text-align: left;
+
+      }
+
+      .michaelImage{
+       width:350px;
+       height:350px;
+       display: flex;
+       align-items: flex-start;
+      }
+      .Aboutcontainer{
+        background-color:#d9e3db;
+        box-shadow: 0 2px 4px rgba(237, 246, 234, 0.1);
+      
+
+      }
+
+      .AboutMe{
+        
+        font-family: 'Montserrat', sans-serif;
+        text-Align:center;
+      }
+
+      .AboutContent{
+        width: 320px;
+        height:470px;
+       text-align: left;
+       border:0.5px solid transparent;
+       margin-left:700px;
+       font-family: 'Montserrat', sans-serif;
+       word-spacing: 2px;
+       
+      }
+.ImageContainer{
+margin-top: 50px;
+margin-left: -100px;
+
+
+}
+      
+      .Image {
+        margin-top:50px;
+         margin-left: 50px;
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+      transition: transform 0.3s, filter 0.3s;
+      
+      margin-left: -240px;
+      }
+      
+      .Info{
+        font-family: 'Montserrat', sans-serif;
+        margin-left:-220px;
+        visibility: hidden;
+       color:#333536;
+       opacity: 1;
+      font-size:20px;
+      }
+      
+      
+      
+        .Image:hover {
+          visibility:visible;
+        transform: scale(1.1); /* Increase the size on hover */
+        filter: brightness(70%);
+        
+      }
+      .Image:hover  + .Info{
+        visibility:visible;
+      }
+      
+
+      @media only screen and (max-width: 600px){
+
+        .Card{
+     
+          display: grid;
+          grid-template-columns: repeat(1, 20px);
+          gap: 2rem;
+          padding: 20px;
+          margin-bottom:30px;
+        }
+     .footer{
+    height:80px;
+width: max-content;
+     }
+.Aboutcontainer{
+  display:block
+  }
+  .AboutContent{
+    margin-left:90px;
+    
+  }
+  .Image{
+
+    margin-left: 70px;
+    width: 250px;
+        height: 250px;
+  }
+  .Info{
+
+    margin-left: 60px;
+  }
+  .nav ul{
+    margin-top: 20px;
+    
+}
+
+      }
+
+      
+      
+      
+      
+      
+      
+      
+
+
+
+      
+      
+      
+      
+      
+    
+      
+   
+
+
+
+
+    
